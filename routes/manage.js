@@ -1,3 +1,4 @@
+//show code 644, this is the key part of email alert function
 var express = require('express');
 var router = express.Router();
 var mongojs = require('mongojs');
@@ -640,6 +641,7 @@ function informUser(req, res, id) {
 
 }
 
+// show code
 function alertUser(newEvent) {
     console.log("alert User");
 
